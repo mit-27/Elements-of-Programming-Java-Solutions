@@ -37,6 +37,7 @@ public class Problem_8_5 {
     }
 
 
+    // Time 0(n)
     public static int[] getSunsetBuildings(int[] buildings)
     {
         if(buildings.length==0)

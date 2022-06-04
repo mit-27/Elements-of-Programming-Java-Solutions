@@ -9,7 +9,7 @@ public class Problem_8_1 {
     //method should return the maximum value stored in the stack.
 
     public static void main(String[] args) {
-        Stack s = new Stack();
+        StackWithMax s = new StackWithMax();
         s.push(2);
         s.push(3);
         s.push(45);
@@ -28,7 +28,7 @@ public class Problem_8_1 {
         }
     }
 
-    private static class Stack{
+    public static class StackWithMax{
 
         private Deque<ElementWithMax> stack = new LinkedList<>();
 

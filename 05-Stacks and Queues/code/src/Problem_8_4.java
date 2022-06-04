@@ -23,6 +23,7 @@ public class Problem_8_4 {
     }
 
 
+    // Time 0(n) where n= no of directory specified in path
     public static String normalizePathName(String inputS)
     {
         if(inputS.length()==0)

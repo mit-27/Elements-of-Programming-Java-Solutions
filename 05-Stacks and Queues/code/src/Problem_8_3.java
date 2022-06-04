@@ -11,6 +11,7 @@ public class Problem_8_3 {
     }
 
 
+    // Time 0(n)
     public static boolean checkValidityOfString(String s)
     {
         Deque<String> stack = new LinkedList<>();
